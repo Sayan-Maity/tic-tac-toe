@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+}
+
+@media (min-width: 700px) {
+  html {
+    font-size: calc(10px + 0.5vw);
+  }
+}
+
+body {
+  background-color: #222222;
+}
+
+header {
+  color: #fff;
+  font-family: 'Comforter Brush', cursive;
+  width: 100vw;
+  height: auto;
+  padding: 8vh 0 3vh 0;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.container {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+          justify-content: space-between;
+          align-items: center;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .canvas {
+  height: 50vh;
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(3, 17vh);
+      grid-template-rows: repeat(3, 17vh);
+  grid-gap: 5px;
+}
+
+.container .canvas .box {
+  background: #252525;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 900;
+}
+
+.container .turn {
+  color: orange;
+  font-size: 2rem;
+}
+
+.container button {
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container #p_again {
+  display: none;
+}
+
+.container #start_btn {
+  background: #222222;
+  width: 250px;
+  padding: 2vh;
+  border: 2px solid #33fb33;
+  font-family: 'Kalam', cursive;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.container #start_btn:hover {
+  border-bottom: 2px solid white;
+  background: #33fb33;
+}
+
+@media all and (max-width: 800px) {
+  .container .canvas {
+        grid-template-columns: repeat(3, 14vh);
+        grid-template-rows: repeat(3, 14vh);
+  }
+}
+/*# sourceMappingURL=style.css.map */

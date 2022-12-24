@@ -1,6 +1,6 @@
 ﻿## InstaCart 
 
-[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+![GitHub repo size](https://img.shields.io/github/repo-size/Sayan-Maity/tic-tac-toe?color=yellow)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/29661bb4-d405-4814-83eb-a9b2017613ec/deploy-status)](https://app.netlify.com/sites/cozy-hotteok-786812/deploys)

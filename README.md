@@ -1,4 +1,4 @@
-﻿## InstaCart 
+﻿## Tik-Tak-Toe 
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Sayan-Maity/tic-tac-toe?color=yellow)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
